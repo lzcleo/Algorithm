@@ -49,4 +49,18 @@ public class 到n整数中1出现的次数 {
         }
     }
 
+    /**
+     * 二进制中1出现的次数
+     * @param n
+     * @return
+     */
+    public int NumberOf1(int n) {
+        int cnt = 0;
+        while (n != 0) {
+            cnt++;
+            n &= (n - 1);
+        }
+        return cnt;
+    }
+
 }
