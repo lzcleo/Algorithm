@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chase/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chase/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -51,7 +73,9 @@
     <option name="height" value="1040" />
   </component>
   <component name="ProjectId" id="1c4yqwEqjEsLMChJFp9hGIJEYUL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -65,6 +89,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -81,7 +106,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -92,7 +117,20 @@
       <recent name="E:\java\Intellij_Idea\Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.huaweiTest">
+  <component name="RunManager" selected="Application.最长连续序列">
+    <configuration name="最长连续序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.最长连续序列" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.sortAndSearch.QuickSort" />
       <module name="Algorithm" />
@@ -132,19 +170,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pddTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.pddTest" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.Other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="全排列.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <extension name="coverage">
@@ -163,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.最长连续序列" />
         <item itemvalue="Application.huaweiTest" />
         <item itemvalue="JUnit.全排列.test" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.pddTest" />
       </list>
     </recent_temporary>
   </component>
@@ -340,6 +365,8 @@
       <workItem from="1589802357643" duration="13000" />
       <workItem from="1590657574963" duration="26000" />
       <workItem from="1590813001293" duration="108000" />
+      <workItem from="1591149241318" duration="392000" />
+      <workItem from="1591441072695" duration="1751000" />
     </task>
     <servers />
   </component>
@@ -387,11 +414,75 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1591445484869">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445484869" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1591445484867">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445484867" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1591445484866">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445484866" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1591445484868">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445484868" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1591445485150">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445485150" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1591445485145">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445485145" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1591445485143">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445485143" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1591445485148">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445485148" />
     <state x="308" y="200" key="IDE.errors.dialog" timestamp="1590813089651">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="308" y="200" key="IDE.errors.dialog/0.0.1440.900/1440.-821.1920.1080@0.0.1440.900" timestamp="1590813089651" />
+    <state x="656" y="-831" key="RollbackChangesDialog" timestamp="1591149342336">
+      <screen x="-108" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="656" y="-831" key="RollbackChangesDialog/0.0.1440.900/-108.-1080.1920.1080@-108.-1080.1920.1080" timestamp="1591149342336" />
+    <state x="215" y="-901" key="SettingsEditor" timestamp="1591445119715">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="215" y="-901" key="SettingsEditor/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445119715" />
+    <state x="215" y="-901" key="SettingsEditor/0.23.1440.877/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591442847893" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/最长连续序列.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
