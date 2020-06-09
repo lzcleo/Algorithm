@@ -1,4 +1,4 @@
-package leetcode.sortAndSearch;
+package leetcode.sortandsearch;
 
 import org.junit.Test;
 

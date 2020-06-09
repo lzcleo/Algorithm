@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/最长连续序列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/最长连续序列.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Search/bfs/完全平方数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Search/bfs/完全平方数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/第k个排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/第k个排列.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +69,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
-  </component>
   <component name="ProjectId" id="1c4yqwEqjEsLMChJFp9hGIJEYUL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -106,7 +103,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -117,26 +114,13 @@
       <recent name="E:\java\Intellij_Idea\Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.最长连续序列">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="最长连续序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.array.最长连续序列" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sortAndSearch.QuickSort" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.sortAndSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,6 +154,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chase" />
+      <option name="MAIN_CLASS_NAME" value="chase.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="全排列.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <extension name="coverage">
@@ -188,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.最长连续序列" />
         <item itemvalue="Application.huaweiTest" />
         <item itemvalue="JUnit.全排列.test" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -366,41 +365,12 @@
       <workItem from="1590657574963" duration="26000" />
       <workItem from="1590813001293" duration="108000" />
       <workItem from="1591149241318" duration="392000" />
-      <workItem from="1591441072695" duration="1751000" />
+      <workItem from="1591441072695" duration="2049000" />
+      <workItem from="1591628008663" duration="193000" />
+      <workItem from="1591628975286" duration="759000" />
+      <workItem from="1591662641924" duration="300000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="test_in_Algorithm - 2020.04.10 at 19h 16m 07s.xml">
-      <configuration name="test in Algorithm" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="全排列_test - 2020.04.15 at 17h 18m 47s.xml">
-      <configuration name="全排列.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="全排列_test - 2020.04.15 at 17h 18m 52s.xml">
-      <configuration name="全排列.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="全排列_test - 2020.04.15 at 17h 19m 04s.xml">
-      <configuration name="全排列.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="全排列_test - 2020.04.15 at 17h 19m 59s.xml">
-      <configuration name="全排列.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="全排列_test - 2020.04.15 at 17h 20m 37s.xml">
-      <configuration name="全排列.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="全排列_test - 2020.04.15 at 17h 20m 47s.xml">
-      <configuration name="全排列.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="全排列_test - 2020.04.15 at 17h 21m 47s.xml">
-      <configuration name="全排列.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="全排列_test - 2020.04.15 at 17h 26m 21s.xml">
-      <configuration name="全排列.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="全排列_test - 2020.04.15 at 17h 32m 43s.xml">
-      <configuration name="全排列.test" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -427,38 +397,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1591445484869">
-      <screen x="-246" y="-1080" width="1920" height="1080" />
+    <state x="575" y="229" key="#Inspections" timestamp="1591662943229">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445484869" />
-    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1591445484867">
-      <screen x="-246" y="-1080" width="1920" height="1080" />
+    <state x="575" y="229" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1591662943229" />
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1591628201567">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445484867" />
-    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1591445484866">
-      <screen x="-246" y="-1080" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591447802245" />
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591628201567" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1591628201565">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445484866" />
-    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1591445484868">
-      <screen x="-246" y="-1080" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591447802244" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591628201565" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1591628201565">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445484868" />
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1591445485150">
-      <screen x="-246" y="-1080" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591447802243" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591628201565" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1591628201566">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445485150" />
-    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1591445485145">
-      <screen x="-246" y="-1080" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591447802244" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591628201566" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1591448211500">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445485145" />
-    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1591445485143">
-      <screen x="-246" y="-1080" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591447802247" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591448211500" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1591448211500">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445485143" />
-    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1591445485148">
-      <screen x="-246" y="-1080" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591447802246" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591448211500" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1591448211499">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445485148" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591447802246" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591448211499" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1591448211500">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591447802247" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591448211500" />
     <state x="308" y="200" key="IDE.errors.dialog" timestamp="1590813089651">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -467,22 +449,12 @@
       <screen x="-108" y="-1080" width="1920" height="1080" />
     </state>
     <state x="656" y="-831" key="RollbackChangesDialog/0.0.1440.900/-108.-1080.1920.1080@-108.-1080.1920.1080" timestamp="1591149342336" />
-    <state x="215" y="-901" key="SettingsEditor" timestamp="1591445119715">
-      <screen x="-246" y="-1080" width="1920" height="1080" />
+    <state x="346" y="149" key="SettingsEditor" timestamp="1591662622730">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="215" y="-901" key="SettingsEditor/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445119715" />
+    <state x="346" y="149" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591662622730" />
     <state x="215" y="-901" key="SettingsEditor/0.23.1440.877/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591442847893" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/最长连续序列.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

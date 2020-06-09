@@ -17,8 +17,10 @@ public class 第k个排列 {
      * @param f 每组的排列个数
      */
     private String recursive(int n, int f, int k, boolean[] visited) {
-        int offset = k % f;// 组内偏移量
-        int groupIndex = k / f + (offset > 0 ? 1 : 0);// 第几组
+        // 组内偏移量
+        int offset = k % f;
+        // 第几组
+        int groupIndex = k / f + (offset > 0 ? 1 : 0);
         // 在没有被访问的数字里找第 groupIndex 个数字
         int i = 0;
         for (; i < visited.length && groupIndex > 0; i++) {
@@ -26,7 +28,8 @@ public class 第k个排列 {
                 groupIndex--;
             }
         }
-        visited[i - 1] = true;// 标记为已访问
+        /* 标记为已访问 */
+        visited[i - 1] = true;
         if (n - 1 > 0) {
             // offset = 0 时，则取第 i 组的第 f 个排列，否则取第 i 组的第 offset 个排列
             return String.valueOf(i) + recursive(n - 1, f / (n - 1), offset == 0 ? f : offset, visited);

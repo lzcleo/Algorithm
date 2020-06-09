@@ -1,7 +1,7 @@
-package leetcode.sortAndSearch;
+package leetcode.sortandsearch;
 
 
-import static leetcode.sortAndSearch.QuickSort2.swap;
+import static leetcode.sortandsearch.QuickSort2.swap;
 
 /**
  * @author leolu

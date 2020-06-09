@@ -1,4 +1,4 @@
-package leetcode.Search.bfs;
+package leetcode.search.bfs;
 
 
 import org.junit.Test;
@@ -60,7 +60,8 @@ public class 完全平方数 {
             for (int j = 1; i - j * j >= 0; j++) {
                 //这里需要注意的是我们需要遍历所有此时比i小的完全平方数，而不会每次取最大的完全平方数，如果每次取最大
                 // 转化为贪心算法，这一题易知贪心算法并不正确
-                dp[i] = Math.min(dp[i], dp[i - j * j] + 1); // 动态转移方程
+                // 动态转移方程
+                dp[i] = Math.min(dp[i], dp[i - j * j] + 1);
             }
         }
         return dp[n];

@@ -1,4 +1,4 @@
-package leetcode.Search.bfs;
+package leetcode.search.bfs;
 
 import java.util.List;
 
