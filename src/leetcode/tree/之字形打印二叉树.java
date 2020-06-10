@@ -27,9 +27,9 @@ public class 之字形打印二叉树 {
                 list.add(node.val);
 //               queue.pull(node.left);
 //               queue.pull(node.right);
-                if (!(node.left == null))
+                if (node.left != null)
                     queue.add(node.left);
-                if (!(node.right == null))
+                if (node.right != null)
                     queue.add(node.right);
             }
             if (reverse) {

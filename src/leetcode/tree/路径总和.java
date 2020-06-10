@@ -74,7 +74,7 @@ class 路径之和3{
      * 路径不需要从根节点开始，也不需要在叶子节点结束，但是路径方向必须是向下的（只能从父节点到子节点）。
      */
 
-    //以root为根节点的二叉树中，寻找和为sum的路径，返回这样的路径个数
+    /**以root为根节点的二叉树中，寻找和为sum的路径，返回这样的路径个数 */
     public int pathSumNumber(TreeNode root, int sum) {
         if (root == null)
             return 0;

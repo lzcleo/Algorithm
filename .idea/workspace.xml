@@ -22,9 +22,10 @@
     <list default="true" id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/最长连续序列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/最长连续序列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Search/bfs/完全平方数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Search/bfs/完全平方数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/第k个排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/第k个排列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Other/到n整数中1出现的次数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/到n整数中1出现的次数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/之字形打印二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/之字形打印二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/二叉树的最近公共祖先.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/二叉树的最近公共祖先.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/路径总和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/路径总和.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +104,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -129,11 +130,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sortAndSearch.Solution" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.sortandsearch.Solution" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.sortAndSearch.*" />
+          <option name="PATTERN" value="leetcode.sortandsearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +174,12 @@
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.Search.dfs.*" />
+          <option name="PATTERN" value="leetcode.search.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.Search.dfs" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.Search.dfs.全排列" />
+      <option name="PACKAGE_NAME" value="leetcode.search.dfs" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.search.dfs.全排列" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -368,7 +369,7 @@
       <workItem from="1591441072695" duration="2049000" />
       <workItem from="1591628008663" duration="193000" />
       <workItem from="1591628975286" duration="759000" />
-      <workItem from="1591662641924" duration="300000" />
+      <workItem from="1591662641924" duration="1454000" />
     </task>
     <servers />
   </component>
@@ -397,9 +398,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="575" y="229" key="#Inspections" timestamp="1591662943229">
+    <state x="575" y="229" key="#Inspections" timestamp="1591667461810">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="575" y="229" key="#Inspections/0.0.1440.900/-213.-1057.1920.1057@0.0.1440.900" timestamp="1591667461810" />
     <state x="575" y="229" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1591662943229" />
     <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1591628201567">
       <screen x="0" y="0" width="1440" height="900" />
@@ -441,19 +443,21 @@
     </state>
     <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591447802247" />
     <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591448211500" />
-    <state x="308" y="200" key="IDE.errors.dialog" timestamp="1590813089651">
+    <state x="319" y="207" key="IDE.errors.dialog" timestamp="1591667640485">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="319" y="207" key="IDE.errors.dialog/0.0.1440.900/-213.-1080.1920.1080@0.0.1440.900" timestamp="1591667640485" />
     <state x="308" y="200" key="IDE.errors.dialog/0.0.1440.900/1440.-821.1920.1080@0.0.1440.900" timestamp="1590813089651" />
     <state x="656" y="-831" key="RollbackChangesDialog" timestamp="1591149342336">
       <screen x="-108" y="-1080" width="1920" height="1080" />
     </state>
     <state x="656" y="-831" key="RollbackChangesDialog/0.0.1440.900/-108.-1080.1920.1080@-108.-1080.1920.1080" timestamp="1591149342336" />
-    <state x="346" y="149" key="SettingsEditor" timestamp="1591662622730">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="346" y="168" key="SettingsEditor" timestamp="1591668034238">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="215" y="-901" key="SettingsEditor/0.0.1440.900/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591445119715" />
     <state x="346" y="149" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591662622730" />
+    <state x="346" y="168" key="SettingsEditor/0.23.1440.877/-213.-1057.1920.1057@0.23.1440.877" timestamp="1591668034238" />
     <state x="215" y="-901" key="SettingsEditor/0.23.1440.877/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1591442847893" />
   </component>
   <component name="masterDetails">
