@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Other/到n整数中1出现的次数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/到n整数中1出现的次数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/之字形打印二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/之字形打印二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/二叉树的最近公共祖先.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/二叉树的最近公共祖先.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/路径总和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/路径总和.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,6 +365,7 @@
       <workItem from="1591628008663" duration="193000" />
       <workItem from="1591628975286" duration="759000" />
       <workItem from="1591662641924" duration="1454000" />
+      <workItem from="1591796527108" duration="274000" />
     </task>
     <servers />
   </component>
