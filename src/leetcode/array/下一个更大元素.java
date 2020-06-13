@@ -34,6 +34,11 @@ public class 下一个更大元素 {
     }
 
     //单调栈的常规模板
+    /**
+     *
+     * @param nums2
+     * @return
+     */
     private int[] nextGreaterElementFirst(int[] nums2) {
         int[] res = new int[nums2.length];
         LinkedList<Integer> stack = new LinkedList<>();
@@ -46,4 +51,5 @@ public class 下一个更大元素 {
         }
         return res;
     }
+
 }
