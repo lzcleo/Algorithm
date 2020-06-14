@@ -1,55 +1,45 @@
 package chase;
 
 
-import org.junit.Test;
-
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.Stack;
+import java.util.stream.Collectors;
 
 /**
  *
  */
 public class SolutionTest {
-    public static String serialize(TreeNode root) {
-        if(root == null)
-            return "[]";
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        StringBuilder res = new StringBuilder("[");
-        while(!queue.isEmpty()){
-            TreeNode node = queue.poll();
-            res.append(node.val + ",");
-            if (node.left == null) {
-                res.append("null,");
-            } else {
-                queue.offer(node.left);
+    public static void main(String[] args) {
+        class Person {
+            String name;
+            int age;
+
+            Person(String name, int age) {
+                this.name = name;
+                this.age = age;
             }
 
-            if(node.right == null){
-                res.append("null,");
-            } else {
-                queue.offer(node.right);
+            @Override
+            public String toString() {
+                return name;
             }
         }
-        String result = res.toString().substring(0, res.length() - 1);
-        return result += "]";
 
+        // 构建一个 Person 集合
+        List<Person> persons =
+                Arrays.asList(
+                        new Person("Max", 18),
+                        new Person("Peter", 23),
+                        new Person("Pamela", 23),
+                        new Person("David", 12));
+        System.out.println(persons);
+//        System.out.println(persons.stream().filter(p -> p.name.startsWith("P")).collect(Collectors.toList()));
+//        System.out.println(persons.stream().filter(p -> p.name.startsWith("P")).collect(Collectors.toList()));
+        Map<Integer, List<Person>> collect = persons.stream().collect(Collectors.groupingBy(p -> p.age));
+//        persons.stream().collect(Collectors.averagingInt())
     }
-
-    // Decodes your encoded data to tree.
-    public int getInt(char a) {
-        if (a >= '0' && a <= '9')
-            return a - '0';
-        return a - 'a' + 10;
-    }
-
-    @Test
-    public void test() {
-        System.out.println(getInt('a'));
-        int[] nums= {0,1,2};
-        System.out.println(nums.toString());
-        System.out.println(Arrays.asList(nums).toString());
-    }
-
 }
 class TreeNode {
     int val;

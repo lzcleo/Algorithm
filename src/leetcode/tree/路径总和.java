@@ -55,6 +55,7 @@ class 路径总和2{
             return;
         list.add(root.val);
         if (root.left == null && root.right == null && sum == root.val) {
+            //这里这个点很重要，不能直接放入list，应该新建一个对象，复制一份
             res.add(new ArrayList<>(list));
 //            return ;
         }
