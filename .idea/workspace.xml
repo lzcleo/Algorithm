@@ -20,29 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/chase/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/chase/MinStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/chase/SolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/chase/SolutionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/chase/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/chase/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/到n整数中1出现的次数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/到n整数中1出现的次数.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/bfs/单词接龙.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/bfs/单词接龙.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/bfs/完全平方数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/bfs/完全平方数.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/dfs/全排列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/dfs/全排列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/dfs/岛屿数量.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/dfs/岛屿数量.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/dfs/矩阵中的最长递增路径.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/dfs/矩阵中的最长递增路径.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/dfs/矩阵中的路径.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/dfs/矩阵中的路径.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/三数之和.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/三数之和.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/第k个排列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/第k个排列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/QuickSort2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/QuickSort2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/sortAndSearch/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chase/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chase/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/路径总和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/路径总和.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,7 +366,7 @@
       <workItem from="1591796527108" duration="1114000" />
       <workItem from="1591843731337" duration="3000" />
       <workItem from="1592028548326" duration="2301000" />
-      <workItem from="1592100916122" duration="4500000" />
+      <workItem from="1592100916122" duration="6425000" />
     </task>
     <servers />
   </component>
