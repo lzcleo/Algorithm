@@ -1,6 +1,7 @@
 package chase.problem61;
 
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author leolu
@@ -31,7 +32,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {1,3,2,5,4};
-        System.out.println(isContinuous(numbers));
+        String s = new String("33");
+        List<String> strings = Arrays.asList(s.split(","));
+        System.out.println(strings);
     }
 }
