@@ -1,4 +1,4 @@
-package leetcode.treeOrder;
+package leetcode.tree;
 
 import java.util.Stack;
 
