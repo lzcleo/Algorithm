@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85e1b075-1ad7-48a5-b8f0-f19440751e26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/从前序与中序遍历序列构造二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/从前序与中序遍历序列构造二叉树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592653226381</updated>
       <workItem from="1592653228928" duration="6079000" />
+      <workItem from="1592796128408" duration="1368000" />
     </task>
     <servers />
   </component>
