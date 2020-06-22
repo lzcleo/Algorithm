@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85e1b075-1ad7-48a5-b8f0-f19440751e26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/翻转二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/翻转二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/treeOrder/order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Dyp/打家劫舍.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Dyp/打家劫舍.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592653226381</updated>
-      <workItem from="1592653228928" duration="2737000" />
+      <workItem from="1592653228928" duration="5976000" />
     </task>
     <servers />
   </component>
@@ -82,5 +82,23 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="-855" key="#Inspections" timestamp="1592722337319">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="392" y="-855" key="#Inspections/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592722337319" />
+    <state x="358" y="-875" width="800" height="765" key="#Intentions" timestamp="1592722352222">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="358" y="-875" width="800" height="765" key="#Intentions/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592722352222" />
+    <state x="470" y="-766" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1592722257812">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="470" y="-766" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592722257812" />
+    <state x="387" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592722475871">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="387" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592722475871" />
   </component>
 </project>
