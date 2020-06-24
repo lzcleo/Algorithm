@@ -21,7 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="85e1b075-1ad7-48a5-b8f0-f19440751e26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/从前序与中序遍历序列构造二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/从前序与中序遍历序列构造二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/数组中出现次数超过一半的数字.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/数组中出现次数超过一半的数字.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/最小的K个数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/最小的K个数.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/treeOrder/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/treeOrder/order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Other/到n整数中1出现的次数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/到n整数中1出现的次数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/数组中出现次数超过一半的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/数组中出现次数超过一半的数字.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/把二叉搜索树转换为累加树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/把二叉搜索树转换为累加树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +59,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="数组中出现次数超过一半的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.数组中出现次数超过一半的数字" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.数组中出现次数超过一半的数字" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,7 +90,9 @@
       <option name="presentableId" value="Default" />
       <updated>1592653226381</updated>
       <workItem from="1592653228928" duration="6079000" />
-      <workItem from="1592796128408" duration="1368000" />
+      <workItem from="1592796128408" duration="2758000" />
+      <workItem from="1592877264195" duration="1268000" />
+      <workItem from="1592892128367" duration="1455000" />
     </task>
     <servers />
   </component>
@@ -100,5 +128,41 @@
       <screen x="-202" y="-1080" width="1920" height="1080" />
     </state>
     <state x="387" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592722475871" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1592811444435">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592811444435" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1592811444433">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.center/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592811444433" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1592811444433">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.left/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592811444433" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1592811444434">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.right/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592811444434" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1592811444437">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592811444437" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1592811444436">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592811444436" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1592811444435">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592811444435" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1592811444436">
+      <screen x="-202" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1440.900/-202.-1080.1920.1080@-202.-1080.1920.1080" timestamp="1592811444436" />
+    <state x="411" y="-842" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592895681197">
+      <screen x="-202" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="411" y="-842" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.836/-202.-1057.1920.1057@-202.-1057.1920.1057" timestamp="1592895681197" />
   </component>
 </project>
