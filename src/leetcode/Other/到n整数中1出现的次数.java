@@ -32,10 +32,10 @@ public class 到n整数中1出现的次数 {
 
     //https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/solution/javadi-gui-by-xujunyi/
     public int countDigitOne(int n) {
-        return f(n);
+        return count(n);
     }
 
-    private int f(int n) {
+    private int count(int n) {
         if (n <= 0)
             return 0;
         String s = String.valueOf(n);
@@ -43,11 +43,29 @@ public class 到n整数中1出现的次数 {
         int pow = (int) Math.pow(10, s.length() - 1);
         int last = n - high * pow;
         if (high == 1) {
-            return f(pow - 1) + last + 1 + f(last);
+            return count(pow - 1) + last + 1 + count(last);
         } else {
-            return pow + high * f(pow - 1) + f(last);
+            return pow + high * count(pow - 1) + count(last);
         }
     }
+
+    //https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/solution/mian-shi-ti-43-1n-zheng-shu-zhong-1-chu-xian-de-2/
+    //叹服
+    public int countDigitOneThird(int n) {
+        int digit = 1, res = 0;
+        int high = n / 10, cur = n % 10, low = 0;
+        while(high != 0 || cur != 0) {
+            if(cur == 0) res += high * digit;
+            else if(cur == 1) res += high * digit + low + 1;
+            else res += (high + 1) * digit;
+            low += cur * digit;
+            cur = high % 10;
+            high /= 10;
+            digit *= 10;
+        }
+        return res;
+    }
+
 
     /**
      * 二进制中1出现的次数
