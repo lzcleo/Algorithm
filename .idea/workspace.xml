@@ -1,52 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/META-INF/Algorithm.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/打家劫舍.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/打家劫舍II.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/打家劫舍III.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Linkedlist/回文链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/数据流中的中位数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/移动零.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/bitOperation/汉明距离.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/不同的二叉搜索树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/二叉树的最大路径和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/从前序与中序遍历序列构造二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/把二叉搜索树转换为累加树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/翻转二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/验证二叉搜索树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/回文链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/移动零.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/bitOperation/汉明距离.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/左旋转字符串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="Merge branch 'master' of https://github.com/lzcleo/Algorithm&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/数组中出现次数超过一半的数字.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/数组中出现次数超过一半的数字.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/最小的K个数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/最小的K个数.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/treeOrder/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/treeOrder/order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Dyp/打家劫舍.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Dyp/打家劫舍.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Other/到n整数中1出现的次数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/到n整数中1出现的次数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/数组中出现次数超过一半的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/数组中出现次数超过一半的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/从前序与中序遍历序列构造二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/从前序与中序遍历序列构造二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/把二叉搜索树转换为累加树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/把二叉搜索树转换为累加树.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/tree/验证二叉搜索树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="632">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -72,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/sortandsearch/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="-356">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -119,6 +93,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>count</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -128,6 +107,11 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1235" />
+    <option name="width" value="695" />
+    <option name="height" value="1040" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -136,8 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,14 +169,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="sortandsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../note" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,15 +213,24 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="Merge branch 'master' of https://github.com/lzcleo/Algorithm&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+      <created>1593390461626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593390461626</updated>
+      <workItem from="1593390467982" duration="665000" />
+    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73000" />
+    <option name="totallyTimeSpent" value="1082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.51537335" visible="true" weight="0.17292225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.51537335" visible="true" weight="0.17493297" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -236,7 +246,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32111436" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32064423" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3288889" />
       <window_info anchor="bottom" id="Statistic" order="13" weight="0.329429" />
@@ -284,6 +294,9 @@
       <window_info anchor="right" id="Structure" order="9" sideWeight="0.48462665" weight="0.1689008" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="RECENT_FILTERS">
       <map>
@@ -310,8 +323,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/tree/验证二叉搜索树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="632">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chase.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="8" selection-start-column="8" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chase/problem55/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Linkedlist/环形链表II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework/oj/six/Solution4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/tree/二叉树的最近公共祖先.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Dyp/买卖股票的最佳时机.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/sortandsearch/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>

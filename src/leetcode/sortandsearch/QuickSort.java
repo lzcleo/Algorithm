@@ -1,8 +1,6 @@
 package leetcode.sortandsearch;
 
 
-import static leetcode.sortandsearch.QuickSort2.swap;
-
 /**
  * @author leolu
  * @create 2020-01-16-21:56
@@ -49,6 +47,14 @@ public class QuickSort {
         swap(nums, l, j);
         return j;
     }
+
+    public static void swap(int arr[], int a, int b)// 数组中两个元素互换
+    {
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
+    }
+
     public static void quickS(int[] nums, int left, int right) {
         if (left >= right)
             return;
@@ -56,7 +62,4 @@ public class QuickSort {
         quickS(nums, left, partition - 1);
         quickS(nums, partition + 1, right);
     }
-
-
-
 }
