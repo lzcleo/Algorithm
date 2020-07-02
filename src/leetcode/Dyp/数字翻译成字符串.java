@@ -8,6 +8,23 @@ import java.util.ArrayList;
  * 这道题其实一看就可以看出来是用dp，但是我竟然不知道怎么处理数字..
  **/
 public class 数字翻译成字符串 {
+
+    public static int MytranslateNum(int num) {
+        char[] input = String.valueOf(num).toCharArray();
+        int len = input.length;
+        int[] dp = new int[len + 1];
+        dp[0] = 1; dp[1] = 1;
+        for (int i = 1; i < len; i ++) {
+            int j = (input[i - 1] - '0') * 10 + (input[i] - '0');
+            if (j <= 25 && j >= 10) {
+                dp[i + 1] = dp[i] + dp[i - 1];
+            } else {
+                dp[i + 1] = dp[i];
+            }
+        }
+        return dp[len];
+    }
+
     public int translateNumFirst(int num) {
         char[] sc = String.valueOf(num).toCharArray();
         int n = sc.length;
@@ -50,5 +67,21 @@ public class 数字翻译成字符串 {
 
     }
 
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
