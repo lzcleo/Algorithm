@@ -1,4 +1,4 @@
-package leetcode.search.dfs;
+package leetcode.backtracking;
 
 import org.junit.Test;
 

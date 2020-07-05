@@ -74,8 +74,8 @@ public class 字符串转整数 {
 
     @Test
     public void test() {
-        System.out.println(StrToInt("          -123445   word         "));
-
+        System.out.println(StrToInt("          -99999999999999   word         "));
+        System.out.println(Integer.MAX_VALUE);
     }
 
 }
