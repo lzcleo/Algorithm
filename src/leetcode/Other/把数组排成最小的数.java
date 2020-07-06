@@ -22,4 +22,5 @@ public class 把数组排成最小的数 {
         String s = minNumber(nums);
         System.out.println(s);
     }
+
 }
