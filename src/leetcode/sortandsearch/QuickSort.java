@@ -14,7 +14,7 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] num = {3,45,78,64,52,11,64,55,99,11,18};
         System.out.println(arrayToString(num,"未排序"));
-        quickS(num,0,num.length-1);
+        quickSort(num,0,num.length-1);
         System.out.println(arrayToString(num,"排序"));
         System.out.println("数组个数："+num.length);
 //        System.out.println("循环次数："+count);
@@ -55,11 +55,11 @@ public class QuickSort {
         arr[b] = temp;
     }
 
-    public static void quickS(int[] nums, int left, int right) {
+    public static void quickSort(int[] nums, int left, int right) {
         if (left >= right)
             return;
         int partition = partition(nums, left, right);
-        quickS(nums, left, partition - 1);
-        quickS(nums, partition + 1, right);
+        quickSort(nums, left, partition - 1);
+        quickSort(nums, partition + 1, right);
     }
 }

@@ -1,10 +1,13 @@
 package leetcode.tree;
 
+import java.util.PriorityQueue;
 import java.util.Stack;
 
 /**
- * @author leolu
- * @create 2020-06-17-22:34
+ * 涉及到树的题目，主要得有以下的思维
+ * 1 找到当前节点需要做的事，然后根据需要放到前序 中序 后序对应的位置
+ * 2 如果当前节点会对下面的子节点有整体影响，可以通过辅助函数增长参数列表，借助参数传递信息
+ * 3 二叉搜索树的做法也会有一些特殊的地方
  **/
 public class 验证二叉搜索树 {
     /**
@@ -47,4 +50,5 @@ public class 验证二叉搜索树 {
         }
         return true;
     }
+
 }

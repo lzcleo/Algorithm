@@ -37,6 +37,7 @@ public class 数组中只出现一次的两个数字 {
 
         int[] result = new int[2];
         for (int num : nums){
+            //一个小细节，这里必须要有一个括号，if (num & k == 0)会报错
             if ((num & k) == 0){ // 第三第四步
                 result[0] ^= num;
             }else{

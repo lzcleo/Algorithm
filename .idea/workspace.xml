@@ -21,8 +21,21 @@
   <component name="ChangeListManager">
     <list default="true" id="4c769d5b-e6fe-4204-8c11-79f883b0b250" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Other/把数组排成最小的数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/把数组排成最小的数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/二叉搜索树的后序遍历序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/二叉搜索树的后序遍历序列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/chase/problem48/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/chase/problem48/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/最长不含重复字符的子字符串.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/最长不含重复字符的子字符串.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Linkedlist/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Linkedlist/复杂链表的复制.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Linkedlist/复杂链表的复制.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/丑数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/丑数.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/数组中只出现一次的两个数字.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/数组中只出现一次的两个数字.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/二叉搜索树的后序遍历序列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/二叉搜索树的后序遍历序列.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Dyp/最长上升子序列长度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Dyp/最长上升子序列长度.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Linkedlist/复杂链表的复制.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/复杂链表的复制.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/下一个更大元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/下一个更大元素.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/数组中只出现一次的两个数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/数组中只出现一次的两个数字.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/sortandsearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sortandsearch/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/sortandsearch/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sortandsearch/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/二叉树的序列化和反序列化.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/二叉树的序列化和反序列化.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/验证二叉搜索树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/验证二叉搜索树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +67,65 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.丑数">
+  <component name="RunManager" selected="Application.队列实现栈">
     <configuration name="丑数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.Other.丑数" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.Other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="队列实现栈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Other.队列实现栈" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.Other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Other.MyStack" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.Other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Linkedlist.TreeNode" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.Linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="复杂链表的复制" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Linkedlist.复杂链表的复制" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.Linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,6 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.队列实现栈" />
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.TreeNode" />
         <item itemvalue="Application.丑数" />
         <item itemvalue="JUnit.leetcode.string in Algorithm" />
       </list>
@@ -99,7 +167,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593847828156</updated>
-      <workItem from="1593847832060" duration="9256000" />
+      <workItem from="1593847832060" duration="15172000" />
+      <workItem from="1594085761490" duration="256000" />
+      <workItem from="1594109606675" duration="5360000" />
+      <workItem from="1594184144928" duration="8979000" />
     </task>
     <servers />
   </component>
@@ -118,54 +189,55 @@
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
     <state x="775" y="-920" key="#丑数/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593858356139" />
-    <state width="912" height="376" key="GridCell.Tab.0.bottom" timestamp="1593914208570">
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1594277450992">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="912" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593914208570" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594277450992" />
     <state width="912" height="290" key="GridCell.Tab.0.bottom/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584619" />
-    <state width="912" height="376" key="GridCell.Tab.0.center" timestamp="1593914208569">
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1594277450990">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="912" height="376" key="GridCell.Tab.0.center/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593914208569" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594277450990" />
     <state width="912" height="290" key="GridCell.Tab.0.center/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584618" />
-    <state width="912" height="376" key="GridCell.Tab.0.left" timestamp="1593914208568">
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1594277450989">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="912" height="376" key="GridCell.Tab.0.left/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593914208568" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594277450989" />
     <state width="912" height="290" key="GridCell.Tab.0.left/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584617" />
-    <state width="912" height="376" key="GridCell.Tab.0.right" timestamp="1593914208569">
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1594277450991">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="912" height="376" key="GridCell.Tab.0.right/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593914208569" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594277450991" />
     <state width="912" height="290" key="GridCell.Tab.0.right/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584619" />
-    <state width="912" height="376" key="GridCell.Tab.1.bottom" timestamp="1593914208573">
+    <state width="912" height="376" key="GridCell.Tab.1.bottom" timestamp="1594035380583">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="912" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593914208573" />
+    <state width="912" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594035380583" />
     <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584612" />
-    <state width="912" height="376" key="GridCell.Tab.1.center" timestamp="1593914208572">
+    <state width="912" height="376" key="GridCell.Tab.1.center" timestamp="1594035380579">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="912" height="376" key="GridCell.Tab.1.center/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593914208572" />
+    <state width="912" height="376" key="GridCell.Tab.1.center/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594035380579" />
     <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584611" />
-    <state width="912" height="376" key="GridCell.Tab.1.left" timestamp="1593914208571">
+    <state width="912" height="376" key="GridCell.Tab.1.left" timestamp="1594035380579">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="912" height="376" key="GridCell.Tab.1.left/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593914208571" />
+    <state width="912" height="376" key="GridCell.Tab.1.left/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594035380579" />
     <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584610" />
-    <state width="912" height="376" key="GridCell.Tab.1.right" timestamp="1593914208573">
+    <state width="912" height="376" key="GridCell.Tab.1.right" timestamp="1594035380582">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="912" height="376" key="GridCell.Tab.1.right/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593914208573" />
+    <state width="912" height="376" key="GridCell.Tab.1.right/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594035380582" />
     <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584611" />
-    <state x="830" y="-760" key="refactoring.ChangeSignatureDialog" timestamp="1593945120876">
+    <state x="830" y="-760" key="refactoring.ChangeSignatureDialog" timestamp="1594023608116">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="830" y="-760" key="refactoring.ChangeSignatureDialog/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593945120876" />
-    <state x="790" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1593952446351">
+    <state x="830" y="-760" key="refactoring.ChangeSignatureDialog/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594023608116" />
+    <state x="790" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1594279573200">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="790" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593952446351" />
+    <state x="790" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594279573200" />
+    <state x="790" y="-821" width="670" height="662" key="search.everywhere.popup/0.23.1440.837/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1594111417031" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -174,6 +246,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/Other/丑数.java</url>
           <line>14</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Linkedlist/复杂链表的复制.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
