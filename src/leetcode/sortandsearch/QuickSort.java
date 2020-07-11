@@ -1,6 +1,10 @@
 package leetcode.sortandsearch;
 
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @author leolu
  * @create 2020-01-16-21:56
@@ -62,4 +66,5 @@ public class QuickSort {
         quickSort(nums, left, partition - 1);
         quickSort(nums, partition + 1, right);
     }
+
 }

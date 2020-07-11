@@ -1,5 +1,7 @@
 package leetcode.sortandsearch;
 
+import java.util.PriorityQueue;
+
 /**
  * @author leolu
  * @create 2020-04-03-11:04
@@ -83,11 +85,11 @@ public class BinarySearch {
             } else if (nums[mid] > target) {
                 right = mid - 1;
             } else if (nums[mid] == target) {
-// 别返回，锁定左侧边界
+            // 别返回，锁定左侧边界
                 right = mid - 1;
             }
         }
-// 最后要检查 left 越界的情况
+            // 最后要检查 left 越界的情况
         if (left >= nums.length || nums[left] != target)
             return -1;
         return left;
