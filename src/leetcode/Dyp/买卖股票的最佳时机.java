@@ -30,7 +30,7 @@ public class 买卖股票的最佳时机 {
                 dp[i][m][1] = Math.max(dp[i-1][m][1], dp[i-1][m-1][0] - prices[i]);
             }
         }
-// 穷举了 n × max_k × 2 个状态，正确。
+        // 穷举了 n × max_k × 2 个状态，正确。
         return dp[n - 1][max_k][0];
     }
 }
