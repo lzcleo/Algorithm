@@ -21,12 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="Merge branch 'master' of https://github.com/lzcleo/Algorithm&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/N个骰子的点数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/N个骰子的点数.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/bitOperation/比特位计数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/bitOperation/比特位计数.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Dyp/N个骰子的点数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Dyp/N个骰子的点数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Dyp/背包/目标和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Dyp/背包/目标和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Linkedlist/K个一组翻转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/K个一组翻转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/bitOperation/比特位计数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/bitOperation/比特位计数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/sortandsearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sortandsearch/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +185,7 @@
       <workItem from="1594798222507" duration="6807000" />
       <workItem from="1594956023727" duration="66000" />
       <workItem from="1594956143542" duration="2588000" />
-      <workItem from="1595048769810" duration="2633000" />
+      <workItem from="1595048769810" duration="3531000" />
     </task>
     <servers />
   </component>

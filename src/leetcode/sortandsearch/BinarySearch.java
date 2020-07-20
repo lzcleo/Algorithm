@@ -7,21 +7,6 @@ import java.util.PriorityQueue;
  * @create 2020-04-03-11:04
  **/
 public class BinarySearch {
-    private int binarySearch(int[] nums, int n, int target) {
-//          此时定义为在[l,r]中寻找target，区间前闭后闭
-        int l = 0, r = nums.length - 1;
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
-            if (nums[mid] == target)
-                return mid;
-            if (nums[mid] < target)
-                l = mid + 1;
-            if (nums[mid] > target)
-                r = mid - 1;
-        }
-        return -1;
-    }
-
     private int binarySearchSecond(int[] nums, int n, int target) {
 //          此时定义为在[l,r)中寻找target，区间前闭后开
         int l = 0, r = nums.length;
@@ -74,8 +59,22 @@ public class BinarySearch {
         return left - 1; // 注意
     }
 
+    private int binarySearch(int[] nums, int n, int target) {
+//          此时定义为在[l,r]中寻找target，区间前闭后闭
+        int l = 0, r = nums.length - 1;
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+            if (nums[mid] == target)
+                return mid;
+            if (nums[mid] < target)
+                l = mid + 1;
+            if (nums[mid] > target)
+                r = mid - 1;
+        }
+        return -1;
+    }
 
-    //下面两种算法作对比
+    //搜索左边界，但是需要注意这个时候的循环结束条件
     static int left_boundS(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         while (left <= right) {
@@ -95,7 +94,7 @@ public class BinarySearch {
         return left;
     }
 
-    //下面两种算法作对比
+    //搜索右边界，但是需要注意这个时候的循环结束条件
     int right_boundS(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         while (left <= right) {
