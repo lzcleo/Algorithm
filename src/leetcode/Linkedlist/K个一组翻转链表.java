@@ -29,8 +29,7 @@ public class K个一组翻转链表 {
         return dummy.next;
     }
     private ListNode reverse(ListNode head) {
-        ListNode pre = null;
-        ListNode cur = head;
+        ListNode pre = null, cur = head;
         while (cur != null) {
             ListNode nextTemp = cur.next;
             cur.next = pre;

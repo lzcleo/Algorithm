@@ -1,5 +1,7 @@
 package leetcode.bitOperation;
 
+import org.junit.Test;
+
 public class 比特位计数 {
     public int[] countBits(int num) {
         int[] ans = new int[num + 1];
@@ -33,4 +35,5 @@ public class 比特位计数 {
         }
         return ans;
     }
+
 }

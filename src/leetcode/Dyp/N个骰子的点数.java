@@ -3,6 +3,7 @@ package leetcode.Dyp;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 
 /**
@@ -73,4 +74,6 @@ public class N个骰子的点数 {
             System.out.println(d);
         }
     }
+
+
 }

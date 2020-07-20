@@ -61,6 +61,7 @@ public class 目标和 {
             sum += num;
         }
         return sum;
+
     }
 
 }
