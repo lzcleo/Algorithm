@@ -70,7 +70,6 @@ class Solution {
                 tmp[k++]=a[p2++];
             }
 
-
         }
 
         while(p1<=mid) tmp[k++]=a[p1++];//如果第一个序列未检测完，直接将后面所有元素加到合并的序列中

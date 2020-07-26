@@ -7,4 +7,14 @@ public class 不用加减乘除做加法 {
     public int add(int a, int b) {
         return b == 0 ? a : add(a ^ b, (a & b) << 1);
     }
+
+
+    //计算1到n的加法
+    private int res;
+    public int sumNums(int n) {
+        //利用系统栈依次压入n.. 1,需要注意使用一个boolean变量，这样使用短路与编译才不会报错
+        boolean index = (n > 1) && (sumNums(n - 1) > 0);
+        res += n;
+        return res;
+    }
 }

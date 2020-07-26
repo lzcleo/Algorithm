@@ -15,7 +15,7 @@ public class Solution {
 
 }
 
-class ListNode{
+class Node {
     int value;
-    ListNode next;
+    Node next;
 }

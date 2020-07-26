@@ -39,7 +39,6 @@ public class 岛屿数量 {
             if (inArea(newx, newy) && grid[newx][newy] == '1')
                 dfs(grid, newx, newy);
         }
-        return;
     }
     private boolean inArea(int x, int y) {
         if (x >= 0 && x < m && y >= 0 && y < n)
