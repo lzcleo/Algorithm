@@ -18,6 +18,7 @@ import java.util.List;
  * 解释: 区间 [1,4] 和 [4,5] 可被视为重叠区间。
  **/
 public class 合并区间 {
+    //定义一个区间类方便操作
     private static class Interval {
         int start;
         int end;
@@ -60,4 +61,5 @@ public class 合并区间 {
         }
         return result;
     }
+
 }

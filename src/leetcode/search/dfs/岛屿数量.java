@@ -45,5 +45,41 @@ public class 岛屿数量 {
             return true;
         return false;
     }
+}
+
+class 岛屿的最大面积 {
+    private int rows,cols;
+    private int[][] direction = {{0,1},{1,0},{0,-1},{-1,0} };
+    public int maxAreaOfIsland(int[][] grid) {
+        if(grid == null || grid.length == 0){
+            return 0;
+        }
+        rows = grid.length;
+        cols = grid[0].length;
+        int max = 0;
+        for (int i = 0; i < rows; i ++)
+            for(int j = 0; j < cols; j ++)
+                if(grid[i][j] == 1)
+                    max = Math.max(dfs(grid,i,j),max);
+        return max;
+
+    }
+
+    //注意这里是有返回值的，与最长上升子序列是一样的
+    private int dfs(int[][] grid, int row, int col) {
+        if(grid[row][col] == 0)
+            return 0;
+        grid[row][col] = 0;
+        int res = 1;
+        for (int i = 0; i < 4; i ++) {
+            int newrow = row + direction[i][0];
+            int newcol = col + direction[i][1];
+            //由于有返回值，所以我们在这里就要进行判断，能不能继续往下走
+            if (newrow >= 0 && newrow < rows && newcol >= 0 && newcol < cols && grid[newrow][newcol] == 1) {
+                res += dfs(grid, newrow, newcol);
+            }
+        }
+        return res;
+    }
 
 }

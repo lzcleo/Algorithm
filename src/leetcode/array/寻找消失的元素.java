@@ -27,6 +27,5 @@ public class 寻找消失的元素 {
         for (int i = 0; i < n; i++)
             res += i - nums[i];
         return res;
-
     }
 }
