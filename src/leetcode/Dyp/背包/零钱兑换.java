@@ -56,6 +56,7 @@ public class 零钱兑换 {
     }
 
     //自底向上求解
+    //完全背包问题， 背包大小放外面
     public int coinChangeThird(int[] coins, int amount) {
         if (coins == null || coins.length == 0) return -1;
         int[] dp = new int[amount + 1];

@@ -16,7 +16,7 @@ public class QuickSort {
      * @param args
      */
     public static void main(String[] args) {
-        int[] num = {3,45,78,64,52,11,64,55,99,11,18};
+        int[] num = {25, 84, 21, 47, 15, 27, 68 ,35 ,20};
         System.out.println(arrayToString(num,"未排序"));
         quickSort(num,0,num.length-1);
         System.out.println(arrayToString(num,"排序"));
@@ -39,6 +39,9 @@ public class QuickSort {
         }
         return str;
     }
+
+
+
     private static int partition(int[] nums, int l, int r) {
         int i = l, j = r + 1;
         while (true) {
@@ -52,19 +55,25 @@ public class QuickSort {
         return j;
     }
 
-    public static void swap(int arr[], int a, int b)// 数组中两个元素互换
+    public static void swap(int nums[], int a, int b)// 数组中两个元素互换
     {
-        int temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
     }
 
     public static void quickSort(int[] nums, int left, int right) {
         if (left >= right)
             return;
         int partition = partition(nums, left, right);
+
         quickSort(nums, left, partition - 1);
+
         quickSort(nums, partition + 1, right);
+
+
     }
+
+
 
 }

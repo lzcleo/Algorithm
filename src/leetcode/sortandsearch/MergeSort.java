@@ -36,14 +36,19 @@ public class MergeSort {
             return;//当子序列中只有一个元素时结束递归
         int mid=(start+end)/2;//划分子序列
         mergeSort(a, start, mid);//对左侧子序列进行递归排序
+        for (int e : a)
+            System.out.print(e+" ");
+        System.out.println();
         mergeSort(a, mid+1, end);//对右侧子序列进行递归排序
         merge(a, start, mid, end);//合并
+
 
     }
 
     @Test
     public void test(){
-        int[] a = {7,5,6,4};
+        int[] a = {
+                25, 84, 21, 47, 15, 27, 68 ,35 ,20};
         mergeSort(a, 0, a.length-1);
         System.out.println("排好序的数组：");
         for (int e : a)

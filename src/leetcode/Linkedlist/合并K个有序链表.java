@@ -1,5 +1,7 @@
 package leetcode.Linkedlist;
 
+import java.util.PriorityQueue;
+
 /**
  * @author leolu
  * @create 2020-03-18-12:27
@@ -7,12 +9,30 @@ package leetcode.Linkedlist;
  * 同时在调主函数的出现了一定的失误，lists.length - 1
  * 这道题可以说是分治思想的体现
  **/
-public class 合并K个排序链表 {
+
+public class 合并K个有序链表 {
+
     public ListNode mergeKLists(ListNode[] lists) {
+        if (lists == null || lists.length == 0) return null;
+        PriorityQueue<ListNode> queue = new PriorityQueue<>((o1, o2) -> o1.val - o2.val);
+        ListNode dummy = new ListNode(0);
+        ListNode p = dummy;
+        for (ListNode node : lists) {
+            if (node != null) queue.add(node);
+        }
+        while (!queue.isEmpty()) {
+            p.next = queue.poll();
+            p = p.next;
+            if (p.next != null) queue.add(p.next);
+        }
+        return dummy.next;
+    }
+
+    //考虑递归的过程，第一轮合并(K/2)组，每组有两个链表，所以每一组内的时间复杂度为O(2n),第二轮合并(K/4)，每组时间复杂度为O(4n)，所以总的时间复杂度度为O(kn*logk)，空间复杂度即为递归高度logk
+    public ListNode mergeKListsSecond(ListNode[] lists) {
         if (lists == null || lists.length == 0)
             return null;
-        return merge(lists, 0, lists.length - 1) ;
-//        return merge(lists, 0, lists.length);
+        return merge(lists, 0, lists.length - 1);
     }
 
     private ListNode merge(ListNode[] lists, int left, int right) {
@@ -45,4 +65,3 @@ public class 合并K个排序链表 {
         return pre.next;
     }
 }
-

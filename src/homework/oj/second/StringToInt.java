@@ -1,6 +1,11 @@
 package homework.oj.second;
 
+import com.sun.tools.javac.util.List;
+
+import javax.swing.tree.TreeNode;
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Scanner;
 
 /**
  * @author shkstart
@@ -8,13 +13,14 @@ import java.util.Arrays;
  **/
 public class StringToInt {
     public static void main(String[] args) {
-        String[] strings = {"1", "2", "3"};
-
-//        int[] array = Arrays.asList(strings).stream().mapToInt(Integer::parseInt).toArray();
-        int[] array = Arrays.stream(strings).mapToInt(Integer::parseInt).toArray();
-
-        for (int i:array) {
-            System.out.print(i);
+        Scanner sc = new Scanner(System.in);
+        String res = "";
+        while (sc.hasNextLine()) {
+            sc.nextLine();
+            while (sc.hasNextLine()) {
+                res += sc.nextLine();
+            }
+            System.out.println(res);
         }
     }
 }

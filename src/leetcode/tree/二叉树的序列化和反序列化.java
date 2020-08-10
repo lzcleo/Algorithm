@@ -1,5 +1,7 @@
 package leetcode.tree;
 
+import org.junit.Test;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -60,6 +62,11 @@ public class 二叉树的序列化和反序列化 {
         return new TreeNode(Integer.valueOf(value));
     }
 
+    @Test
+    public void test() {
+        TreeNode deserialize = deserialize("[1,2,3,null,null,4,5,null,null,null,null]");
+        System.out.println(serialize(deserialize));
+    }
 }
 
 class 先序遍历实现序列化和反序列化 {
@@ -91,3 +98,4 @@ class 先序遍历实现序列化和反序列化 {
         return t;
     }
 }
+

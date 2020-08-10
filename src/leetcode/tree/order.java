@@ -1,5 +1,7 @@
 package leetcode.tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -65,8 +67,6 @@ public class order {
                 System.out.print(stack2.pop().val + " ");
         }
     }
-
-
 }
 class Node {
     int val;

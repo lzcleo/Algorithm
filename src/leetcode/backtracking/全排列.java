@@ -28,6 +28,7 @@ public class 全排列 {
             return res;
         used = new boolean[nums.length];
         Arrays.fill(used, false);
+//        Arrays.sort(nums);  若是需要去重，就先排序然后加上下面的剪枝代码就可以了
         generatePermutation(nums, 0, new ArrayList<>());
         return res;
     }
