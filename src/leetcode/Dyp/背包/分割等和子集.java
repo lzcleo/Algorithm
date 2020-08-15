@@ -1,17 +1,31 @@
 package leetcode.Dyp.背包;
 
 import java.util.Arrays;
-import java.util.LinkedList;
 
 /**
- * 给定一个只包含正整数的非空数组。是否可以将这个数组分割成两个子集，使得两个子集的元素和相等。
- *
  * 输入: [1, 5, 11, 5]
  * 输出: true
  * 解释: 数组可以分割成 [1, 5, 5] 和 [11].
  */
 public class 分割等和子集 {
+    //f(i,C) 把 i 个数放进容量为C的背包
     public boolean canPartition(int[] nums) {
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        if (sum%2 != 0) return false;
+        return tryPartiton(nums, nums.length - 1, sum / 2 );
+    }
+
+    private boolean tryPartiton(int[] nums, int index, int target) {
+        if (target == 0) return true;
+        if (target < 0 || index < 0) return false;
+        return tryPartiton(nums, index - 1, target) || tryPartiton(nums, index - 1, target - nums[index]);
+    }
+
+    //使用DP
+    public boolean canPartitionSecond(int[] nums) {
         int sum = 0;
         for (int num : nums) {
             sum += num;

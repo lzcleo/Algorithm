@@ -1,5 +1,6 @@
 package leetcode.Linkedlist;
 
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 /**
@@ -64,4 +65,5 @@ public class 合并K个有序链表 {
         cur.next = l1 == null ? l2 : l1;
         return pre.next;
     }
+
 }
