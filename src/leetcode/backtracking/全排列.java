@@ -2,9 +2,7 @@ package leetcode.backtracking;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/ 可以看看大佬题解
@@ -59,9 +57,7 @@ public class 全排列 {
 
     @Test
     public void test(){
-        int[] ints = {1,2,3,3};
+        int[] ints = {1,3,3};
         System.out.println(permute(ints));
     }
-
-
 }

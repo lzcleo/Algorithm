@@ -21,16 +21,33 @@
   <component name="ChangeListManager">
     <list default="true" id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="Merge branch 'master' of https://github.com/lzcleo/Algorithm&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Linkedlist/合并K个排序链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/分割等和子集.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/背包/分割等和子集.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/背包/分割等和子集.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/背包/零钱兑换.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/背包/零钱兑换.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/LRUTest$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/LRUTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/MaxQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/MaxQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/bfs/单词接龙.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/bfs/单词接龙.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/三数之和.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/三数之和.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/第k个排列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/第k个排列.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/backtracking/全排列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/backtracking/全排列.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/string/复原IP地址.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/string/复原IP地址.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/翻转二叉树.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/翻转二叉树.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Dyp/分割等和子集.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Dyp/背包/分割等和子集.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Dyp/背包/分割等和子集.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Linkedlist/合并K个有序链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/合并K个有序链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/第k个排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/第k个排列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/二叉树展开为链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Dyp/背包/零钱兑换.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Dyp/背包/零钱兑换.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Other/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Other/数据流中的中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/数据流中的中位数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Other/队列中的最大值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/队列中的最大值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/三数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/三数之和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/全排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/backtracking/全排列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/search/bfs/单词接龙.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/search/bfs/单词接龙.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/string/复原IP地址.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/string/复原IP地址.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/翻转二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/翻转二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/string/无重复字符的最长子串.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/二叉搜索树与双向链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/二叉搜索树与双向链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/二叉树展开为链表.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/构建二叉树.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +83,39 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.复原IP地址.test">
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sortandsearch.QuickSort" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Dyp.背包.零钱兑换" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.sortandsearch.*" />
+          <option name="PATTERN" value="leetcode.Dyp.背包.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.Main" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="x的平方根" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Other.x的平方根" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.Other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,32 +139,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="全排列.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.sortandsearch.*" />
+          <option name="PATTERN" value="leetcode.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.sortandsearch" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.sortandsearch.MergeSort" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="二叉树的序列化和反序列化.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.tree" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.tree.二叉树的序列化和反序列化" />
+      <option name="PACKAGE_NAME" value="leetcode.backtracking" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.全排列" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -144,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.x的平方根" />
         <item itemvalue="JUnit.复原IP地址.test" />
+        <item itemvalue="Application.零钱兑换" />
         <item itemvalue="JUnit.leetcode.Linkedlist in Algorithm" />
-        <item itemvalue="JUnit.二叉树的序列化和反序列化.test" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="JUnit.MergeSort.test" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +219,21 @@
       <workItem from="1597284896639" duration="607000" />
       <workItem from="1597376659385" duration="408000" />
       <workItem from="1597401850684" duration="736000" />
-      <workItem from="1597409604507" duration="755000" />
+      <workItem from="1597409604507" duration="2508000" />
+      <workItem from="1597470354442" duration="1484000" />
+      <workItem from="1597559921135" duration="190000" />
+      <workItem from="1597624723181" duration="3250000" />
+      <workItem from="1597716678720" duration="3339000" />
+      <workItem from="1597934434726" duration="3759000" />
+      <workItem from="1598066436906" duration="3082000" />
+      <workItem from="1598099733681" duration="2239000" />
+      <workItem from="1598183766961" duration="550000" />
+      <workItem from="1598240815478" duration="1708000" />
+      <workItem from="1598320067538" duration="2034000" />
+      <workItem from="1598497527252" duration="507000" />
+      <workItem from="1598585509445" duration="1096000" />
+      <workItem from="1598605065182" duration="4556000" />
+      <workItem from="1598774625300" duration="394000" />
     </task>
     <servers />
   </component>
@@ -230,70 +271,87 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1595937931741" />
-    <state x="698" y="-940" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593945151324">
-      <screen x="-318" y="-1080" width="1920" height="1080" />
+    <state x="391" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598616056138">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="698" y="-940" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593945151324" />
+    <state x="391" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1598616056138" />
     <state x="775" y="-920" key="#丑数" timestamp="1593858356139">
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
     <state x="775" y="-920" key="#丑数/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593858356139" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1597233613877">
-      <screen x="-318" y="-1080" width="1920" height="1080" />
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom" timestamp="1598783488708">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-732.1920.1080@-1920.-732.1920.1080" timestamp="1598087808942" />
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-732.1920.1080@0.0.1440.900" timestamp="1598093924078" />
+    <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597992881005" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613877" />
     <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1595987357407" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597158314532" />
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598783488708" />
     <state width="1878" height="358" key="GridCell.Tab.0.bottom/0.23.1440.837/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1594956280011" />
     <state width="1878" height="253" key="GridCell.Tab.0.bottom/0.23.1440.838/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597143789027" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1597233613875">
-      <screen x="-318" y="-1080" width="1920" height="1080" />
+    <state width="1398" height="251" key="GridCell.Tab.0.center" timestamp="1598783488704">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1878" height="251" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-732.1920.1080@-1920.-732.1920.1080" timestamp="1598087808940" />
+    <state width="1398" height="251" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-732.1920.1080@0.0.1440.900" timestamp="1598093924076" />
+    <state width="1878" height="251" key="GridCell.Tab.0.center/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597992881003" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613875" />
     <state width="1398" height="254" key="GridCell.Tab.0.center/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1595987357404" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597158314529" />
+    <state width="1398" height="251" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1598783488704" />
     <state width="1878" height="358" key="GridCell.Tab.0.center/0.23.1440.837/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1594956280010" />
     <state width="1878" height="253" key="GridCell.Tab.0.center/0.23.1440.838/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597143789024" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1597233613874">
-      <screen x="-318" y="-1080" width="1920" height="1080" />
+    <state width="1398" height="251" key="GridCell.Tab.0.left" timestamp="1598783488703">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1878" height="251" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-732.1920.1080@-1920.-732.1920.1080" timestamp="1598087808939" />
+    <state width="1398" height="251" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-732.1920.1080@0.0.1440.900" timestamp="1598093924075" />
+    <state width="1878" height="251" key="GridCell.Tab.0.left/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597992881002" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613874" />
     <state width="1398" height="254" key="GridCell.Tab.0.left/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1595987357403" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597158314528" />
+    <state width="1398" height="251" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1598783488703" />
     <state width="1878" height="358" key="GridCell.Tab.0.left/0.23.1440.837/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1594956280010" />
     <state width="1878" height="253" key="GridCell.Tab.0.left/0.23.1440.838/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597143789022" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1597233613876">
-      <screen x="-318" y="-1080" width="1920" height="1080" />
+    <state width="1398" height="251" key="GridCell.Tab.0.right" timestamp="1598783488707">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1878" height="251" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-732.1920.1080@-1920.-732.1920.1080" timestamp="1598087808941" />
+    <state width="1398" height="251" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-732.1920.1080@0.0.1440.900" timestamp="1598093924077" />
+    <state width="1878" height="251" key="GridCell.Tab.0.right/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597992881004" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613876" />
     <state width="1398" height="254" key="GridCell.Tab.0.right/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1595987357406" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597158314530" />
+    <state width="1398" height="251" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1598783488707" />
     <state width="1878" height="358" key="GridCell.Tab.0.right/0.23.1440.837/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1594956280011" />
     <state width="1878" height="253" key="GridCell.Tab.0.right/0.23.1440.838/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597143789025" />
-    <state width="1878" height="304" key="GridCell.Tab.1.bottom" timestamp="1597233613882">
-      <screen x="-318" y="-1080" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.1.bottom" timestamp="1597649674690">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1878" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597630736268" />
     <state width="1878" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613882" />
     <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584612" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597158314887" />
-    <state width="1878" height="304" key="GridCell.Tab.1.center" timestamp="1597233613880">
-      <screen x="-318" y="-1080" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597649674690" />
+    <state width="1878" height="304" key="GridCell.Tab.1.center" timestamp="1597649674689">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1878" height="304" key="GridCell.Tab.1.center/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597630736266" />
     <state width="1878" height="304" key="GridCell.Tab.1.center/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613880" />
     <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584611" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1597158314885" />
-    <state width="1878" height="304" key="GridCell.Tab.1.left" timestamp="1597233613878">
-      <screen x="-318" y="-1080" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1597649674689" />
+    <state width="1878" height="304" key="GridCell.Tab.1.left" timestamp="1597649674688">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1878" height="304" key="GridCell.Tab.1.left/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597630736266" />
     <state width="1878" height="304" key="GridCell.Tab.1.left/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613878" />
     <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584610" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1597158314884" />
-    <state width="1878" height="304" key="GridCell.Tab.1.right" timestamp="1597233613881">
-      <screen x="-318" y="-1080" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1597649674688" />
+    <state width="1878" height="304" key="GridCell.Tab.1.right" timestamp="1597649674690">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1878" height="304" key="GridCell.Tab.1.right/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597630736267" />
     <state width="1878" height="304" key="GridCell.Tab.1.right/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613881" />
     <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1593752584611" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1597158314886" />
+    <state width="1878" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1597649674690" />
     <state x="95" y="205" key="extract.method.dialog" timestamp="1595259190288">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -302,23 +360,23 @@
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
     <state x="830" y="-760" key="refactoring.ChangeSignatureDialog/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1594023608116" />
-    <state x="790" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1597284903901">
-      <screen x="-318" y="-1080" width="1920" height="1080" />
+    <state x="831" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1598682145178">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="790" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597284903901" />
-    <state x="831" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597158148303" />
+    <state x="-812" y="-491" width="894" height="158" key="search.everywhere.popup/0.0.1440.900/-1920.-732.1920.1080@-1920.-732.1920.1080" timestamp="1598252768177" />
+    <state x="897" y="-857" width="670" height="691" key="search.everywhere.popup/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597630530946" />
+    <state x="831" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1597991718829" />
+    <state x="790" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597458719123" />
+    <state x="831" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1598682145178" />
     <state x="790" y="-821" width="670" height="662" key="search.everywhere.popup/0.23.1440.836/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1595922122897" />
     <state x="831" y="210" width="670" height="524" key="search.everywhere.popup/0.23.1440.836@0.23.1440.836" timestamp="1595930023079" />
     <state x="790" y="-839" width="670" height="676" key="search.everywhere.popup/0.23.1440.837/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1595311428685" />
+    <state x="790" y="-839" width="670" height="676" key="search.everywhere.popup/0.23.1440.838/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1597481606809" />
+    <state x="831" y="201" width="670" height="564" key="search.everywhere.popup/0.23.1440.838@0.23.1440.838" timestamp="1597934905228" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/Other/丑数.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/Linkedlist/复杂链表的复制.java</url>
           <line>95</line>

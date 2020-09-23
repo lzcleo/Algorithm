@@ -1,7 +1,5 @@
 package leetcode.tree;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -11,10 +9,10 @@ import java.util.Stack;
  *
  **/
 public class order {
-    public void preOrder(Node head) {
+    public void preOrder(TreeNode head) {
         System.out.println("pre-order:");
         if(head != null) {
-            Stack<Node> stack = new Stack<>();
+            Stack<TreeNode> stack = new Stack<>();
             stack.push(head);
             while(!stack.isEmpty()) {
                 head = stack.pop();
@@ -27,10 +25,10 @@ public class order {
         }
     }
 
-    public static void inOrderTraverse(Node head) {
+    public static void inOrderTraverse(TreeNode head) {
         System.out.println("in-order:");
         if(head != null) {
-            Stack<Node> stack = new Stack<>();
+            Stack<TreeNode> stack = new Stack<>();
             while(!stack.isEmpty() || head != null) {
                 if(head != null) {
                     // 当前节点不为空, 将自己压进栈并将自己的左孩子作为当前节点（压入左边界）
@@ -46,11 +44,11 @@ public class order {
         }
     }
 
-    public static void posOrderTraverse(Node head) {
+    public static void posOrderTraverse(TreeNode head) {
         System.out.println("pos-order");
         if(head != null) {
-            Stack<Node> stack1 = new Stack<>();
-            Stack<Node> stack2 = new Stack<>();     // 辅助栈，存储 根 -> 右 -> 左 的结果
+            Stack<TreeNode> stack1 = new Stack<>();
+            Stack<TreeNode> stack2 = new Stack<>();     // 辅助栈，存储 根 -> 右 -> 左 的结果
             stack1.push(head);
             while(!stack1.isEmpty()) {
                 head = stack1.pop();
@@ -67,16 +65,18 @@ public class order {
                 System.out.print(stack2.pop().val + " ");
         }
     }
-}
-class Node {
-    int val;
-    Node left;
-    Node right;
-    Node parent;
 
-    Node() {}
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode parent;
 
-    Node(int val) {
-        this.val = val;
+        TreeNode() {}
+
+        TreeNode(int val) {
+            this.val = val;
+        }
     }
 }
+

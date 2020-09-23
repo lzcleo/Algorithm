@@ -35,6 +35,7 @@ public class 单词接龙 {
         List<Integer>[] graphic = buildGraphic(wordList);
         return getShortestPath(graphic, start, end);
     }
+
     private List<Integer>[] buildGraphic(List<String> wordList) {
         int N = wordList.size();
         List<Integer>[] graphic = new List[N];
@@ -48,15 +49,17 @@ public class 单词接龙 {
         }
         return graphic;
     }
+
     private boolean isConnect(String s1, String s2) {
         int diffCnt = 0;
         for (int i = 0; i < s1.length() && diffCnt <= 1; i++) {
             if (s1.charAt(i) != s2.charAt(i)) {
-                diffCnt++;
+                diffCnt ++;
             }
         }
         return diffCnt == 1;
     }
+
     private int getShortestPath(List<Integer>[] graphic, int start, int end) {
         Queue<Integer> queue = new LinkedList<>();
         boolean[] marked = new boolean[graphic.length];

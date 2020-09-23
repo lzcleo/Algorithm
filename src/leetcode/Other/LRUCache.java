@@ -119,7 +119,7 @@ public class LRUCache<K, V> implements Serializable {
     }
 }
 
-class LRUTest{
+class LRU {
     /**
      * 为什么我们需要在链表中同时存储key和val
      * 当缓存容量已满，我们不仅仅要删除最后一个 Node 节点，还要把 map 中映 射到该节点的 key 同时删除，而这个 key 只能由 Node 得到。如果 Node 结 构中只存储 val，那么我们就无法得知 key 是什么，就无法删除 map 中的 键，造成错误
@@ -137,7 +137,7 @@ class LRUTest{
     LinkedList<Node> list;
     HashMap<Integer, Node> map;
 
-    public LRUTest(int size) {
+    public LRU(int size) {
         this.size = size;
         list = new LinkedList<>();
         map = new HashMap<>();
@@ -176,11 +176,11 @@ class LRUTest{
     }
 
     public static void main(String[] args) {
-        LRUTest lruTest = new LRUTest(2);
-        lruTest.put(1, 1);
-        lruTest.put(2, 3);
-        lruTest.put(3, 5);
-        System.out.println(lruTest.get(2));
+        LRU lru = new LRU(2);
+        lru.put(1, 1);
+        lru.put(2, 3);
+        lru.put(3, 5);
+        System.out.println(lru.get(2));
     }
 }
 

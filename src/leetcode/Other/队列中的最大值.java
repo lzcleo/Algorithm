@@ -32,7 +32,7 @@ class MaxQueue {
 
     public void push_back(int value) {
         queue.offerLast(value);
-        while (!max.isEmpty() && max.getLast() < value) {
+        while (!max.isEmpty() && max.peekLast() < value) {
             max.pollLast();
         }
         max.offerLast(value);

@@ -7,7 +7,7 @@ package leetcode.tree;
  **/
 public class 二叉搜索树与双向链表 {
     public Node pre;
-    public Node head;
+    public Node head; //记录一下头结点在哪
     public void process(Node root){
         if(root == null){
             return;
