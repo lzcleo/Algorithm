@@ -134,8 +134,8 @@ class LRU {
     }
 
     private int size;
-    LinkedList<Node> list;
-    HashMap<Integer, Node> map;
+    private LinkedList<Node> list;
+    private HashMap<Integer, Node> map;
 
     public LRU(int size) {
         this.size = size;

@@ -21,33 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1dc04f6e-fce6-41eb-9290-35542bce2efd" name="Default Changelist" comment="Merge branch 'master' of https://github.com/lzcleo/Algorithm&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/分割等和子集.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/背包/分割等和子集.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/背包/分割等和子集.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/背包/零钱兑换.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Dyp/背包/零钱兑换.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/LRUTest$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/LRUTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/MaxQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/MaxQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/bfs/单词接龙.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Search/bfs/单词接龙.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/三数之和.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/三数之和.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/第k个排列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/array/第k个排列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/backtracking/全排列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/backtracking/全排列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/string/复原IP地址.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/string/复原IP地址.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/tree/二叉树展开为链表.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Dyp/背包/零钱兑换.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Dyp/背包/零钱兑换.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/LRU.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/Other/LRU.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/backtracking/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/backtracking/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/Other/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Other/数据流中的中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/数据流中的中位数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Other/队列中的最大值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Other/队列中的最大值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/三数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/三数之和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/全排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/backtracking/全排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/search/bfs/单词接龙.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/search/bfs/单词接龙.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/string/复原IP地址.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/string/复原IP地址.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/string/无重复字符的最长子串.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/二叉搜索树与双向链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/二叉搜索树与双向链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/二叉树展开为链表.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/构建二叉树.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/验证二叉搜索树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/验证二叉搜索树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +61,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.LRU">
     <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.Dyp.背包.零钱兑换" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.Dyp.背包.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Other.LRU" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.Other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,43 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="全排列.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.backtracking" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.全排列" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.Linkedlist in Algorithm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.Linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.Linkedlist" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRU" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.x的平方根" />
         <item itemvalue="JUnit.复原IP地址.test" />
         <item itemvalue="Application.零钱兑换" />
-        <item itemvalue="JUnit.leetcode.Linkedlist in Algorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +195,10 @@
       <workItem from="1598585509445" duration="1096000" />
       <workItem from="1598605065182" duration="4556000" />
       <workItem from="1598774625300" duration="394000" />
+      <workItem from="1600835913394" duration="1217000" />
+      <workItem from="1601014164649" duration="1638000" />
+      <workItem from="1602225464507" duration="309000" />
+      <workItem from="1602777207571" duration="141000" />
     </task>
     <servers />
   </component>
@@ -280,7 +245,7 @@
       <screen x="-318" y="-1080" width="1920" height="1080" />
     </state>
     <state x="775" y="-920" key="#丑数/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1593858356139" />
-    <state width="1398" height="251" key="GridCell.Tab.0.bottom" timestamp="1598783488708">
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom" timestamp="1600847005341">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-732.1920.1080@-1920.-732.1920.1080" timestamp="1598087808942" />
@@ -288,10 +253,10 @@
     <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597992881005" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613877" />
     <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1595987357407" />
-    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598783488708" />
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600847005341" />
     <state width="1878" height="358" key="GridCell.Tab.0.bottom/0.23.1440.837/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1594956280011" />
     <state width="1878" height="253" key="GridCell.Tab.0.bottom/0.23.1440.838/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597143789027" />
-    <state width="1398" height="251" key="GridCell.Tab.0.center" timestamp="1598783488704">
+    <state width="1398" height="251" key="GridCell.Tab.0.center" timestamp="1600847005339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="251" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-732.1920.1080@-1920.-732.1920.1080" timestamp="1598087808940" />
@@ -299,10 +264,10 @@
     <state width="1878" height="251" key="GridCell.Tab.0.center/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597992881003" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613875" />
     <state width="1398" height="254" key="GridCell.Tab.0.center/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1595987357404" />
-    <state width="1398" height="251" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1598783488704" />
+    <state width="1398" height="251" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600847005339" />
     <state width="1878" height="358" key="GridCell.Tab.0.center/0.23.1440.837/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1594956280010" />
     <state width="1878" height="253" key="GridCell.Tab.0.center/0.23.1440.838/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597143789024" />
-    <state width="1398" height="251" key="GridCell.Tab.0.left" timestamp="1598783488703">
+    <state width="1398" height="251" key="GridCell.Tab.0.left" timestamp="1600847005339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="251" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-732.1920.1080@-1920.-732.1920.1080" timestamp="1598087808939" />
@@ -310,10 +275,10 @@
     <state width="1878" height="251" key="GridCell.Tab.0.left/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597992881002" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613874" />
     <state width="1398" height="254" key="GridCell.Tab.0.left/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1595987357403" />
-    <state width="1398" height="251" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1598783488703" />
+    <state width="1398" height="251" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600847005339" />
     <state width="1878" height="358" key="GridCell.Tab.0.left/0.23.1440.837/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1594956280010" />
     <state width="1878" height="253" key="GridCell.Tab.0.left/0.23.1440.838/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597143789022" />
-    <state width="1398" height="251" key="GridCell.Tab.0.right" timestamp="1598783488707">
+    <state width="1398" height="251" key="GridCell.Tab.0.right" timestamp="1600847005340">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="251" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-732.1920.1080@-1920.-732.1920.1080" timestamp="1598087808941" />
@@ -321,7 +286,7 @@
     <state width="1878" height="251" key="GridCell.Tab.0.right/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1597992881004" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597233613876" />
     <state width="1398" height="254" key="GridCell.Tab.0.right/0.0.1440.900/-318.-1080.1920.1080@0.0.1440.900" timestamp="1595987357406" />
-    <state width="1398" height="251" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1598783488707" />
+    <state width="1398" height="251" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600847005340" />
     <state width="1878" height="358" key="GridCell.Tab.0.right/0.23.1440.837/-318.-1057.1920.1057@-318.-1057.1920.1057" timestamp="1594956280011" />
     <state width="1878" height="253" key="GridCell.Tab.0.right/0.23.1440.838/-318.-1080.1920.1080@-318.-1080.1920.1080" timestamp="1597143789025" />
     <state width="1878" height="304" key="GridCell.Tab.1.bottom" timestamp="1597649674690">
